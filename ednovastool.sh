@@ -451,7 +451,7 @@ function bbronekey(){
 
 
 function ovzbbr(){
-    wget --no-cache -O lkl-haproxy.sh https://github.com/mzz2017/lkl-haproxy/raw/master/lkl-haproxy.sh && bash lkl-haproxy.sh
+    wget --no-cache -O lkl-haproxy.sh https://ghproxy/github.com/mzz2017/lkl-haproxy/raw/master/lkl-haproxy.sh && bash lkl-haproxy.sh
 }
 
 function wireguardonekey(){
@@ -486,9 +486,9 @@ function region(){
 
 function netflixdetect(){
     if [ $arch = "aarch64" ]; then
-        wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.61/nf_2.61_linux_arm64 && chmod +x nf && clear && ./nf
+        wget -O nf https://ghproxy/github.com/sjlleo/netflix-verify/releases/download/2.61/nf_2.61_linux_arm64 && chmod +x nf && clear && ./nf
     else
-        wget -O nf https://github.com/sjlleo/netflix-verify/releases/download/2.61/nf_2.61_linux_amd64 && chmod +x nf && clear && ./nf
+        wget -O nf https://ghproxy/github.com/sjlleo/netflix-verify/releases/download/2.61/nf_2.61_linux_amd64 && chmod +x nf && clear && ./nf
     fi
 }
 
@@ -506,7 +506,7 @@ function acacia233(){
 
 
 function georgexie2333(){
-    wget https://github.com/GeorgeXie2333/Project-WARP-Unlock/raw/main/warp_change_ip.sh && chmod +x warp_change_ip.sh && ./warp_change_ip.sh
+    wget https://ghproxy/github.com/GeorgeXie2333/Project-WARP-Unlock/raw/main/warp_change_ip.sh && chmod +x warp_change_ip.sh && ./warp_change_ip.sh
 }
 
 function georgexie2333onekey(){
@@ -518,7 +518,7 @@ function georgexie2333onekey(){
 }
 
 function tiktokcheck(){
-	curl -fsL -o ./t.sh.x https://github.com/lmc999/TikTokCheck/raw/main/t.sh.x && chmod +x ./t.sh.x && ./t.sh.x
+	curl -fsL -o ./t.sh.x https://ghproxy/github.com/lmc999/TikTokCheck/raw/main/t.sh.x && chmod +x ./t.sh.x && ./t.sh.x
 }
 # ==============part4=============
 
@@ -624,7 +624,7 @@ function cxxmatrix(){
         sudo apt install g++ -y
     fi
     cd /home
-    git clone https://github.com/akinomyoga/cxxmatrix.git
+    git clone https://ghproxy/github.com/akinomyoga/cxxmatrix.git
     cd cxxmatrix
     make
     ./cxxmatrix 'The Matrix' 'Reloaded'
@@ -637,7 +637,7 @@ function epicgamesonekey(){
         apt install python3-pip -y
     fi
     cd /home
-    git clone -b main https://github.com/EdNovas/epicgames.git
+    git clone -b main https://ghproxy/github.com/EdNovas/epicgames.git
     cd epicgames-claimer
     pip3 install -r requirements.txt
     sudo sh install_dependencies.sh
